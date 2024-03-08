@@ -21,11 +21,17 @@ section {
   justify-content: center;
 }
 .coverpage {
-  position: absolute;
+  position: relative;
   width: 97vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 1rem auto;
+}
+.cover-img {
+  height: 90vw;
+  width: 90vh;
+}
+.heading {
+  position: absolute;
 }
 
 @media screen and (min-width: 800px) {
