@@ -14,15 +14,18 @@ body {
   padding: 1rem 0;
 }
 
-.heading {
-  background-image: url(./images/colorful\ full\ b\ 21888d2b-59d5-479b-afff-c740ae09db53.png);
-  height: 96vh;
-  width: 96vw;
-}
-
 section {
   width: 90vw;
   height: 60rem;
+  display: flex;
+  justify-content: center;
+}
+.coverpage {
+  position: absolute;
+  width: 97vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 800px) {
