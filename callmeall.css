@@ -57,7 +57,7 @@ section {
 }
 .intro-heading {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 1rem;
   text-decoration: underline;
   font-weight: 700;
 }
@@ -92,6 +92,19 @@ p {
     left: 18%;
     font-size: 5rem;
   }
+  #introduction {
+    gap: 2rem;
+  }
+  .intro-heading {
+    text-align: center;
+    font-size: 2.4rem;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  p {
+    text-indent: 20px;
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 820px) {
@@ -120,6 +133,19 @@ p {
     left: 18%;
     font-size: 5rem;
   }
+  #introduction {
+    gap: 2rem;
+  }
+  .intro-heading {
+    text-align: center;
+    font-size: 2.4rem;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  p {
+    text-indent: 20px;
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -147,6 +173,19 @@ p {
     left: 24%;
     font-size: 5.7rem;
   }
+  #introduction {
+    gap: 2rem;
+  }
+  .intro-heading {
+    text-align: center;
+    font-size: 2.4rem;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  p {
+    text-indent: 20px;
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -173,5 +212,18 @@ p {
     top: 60%;
     left: 24%;
     font-size: 7.7rem;
+  }
+  #introduction {
+    gap: 2rem;
+  }
+  .intro-heading {
+    text-align: center;
+    font-size: 2.4rem;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  p {
+    text-indent: 20px;
+    font-size: 1.4rem;
   }
 }
