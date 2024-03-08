@@ -17,13 +17,14 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 section {
   width: 90vw;
   height: 40rem;
   display: flex;
+  flex-direction: column;
   padding: 2rem;
   border-radius: 15px;
   justify-content: center;
@@ -46,9 +47,64 @@ section {
   left: 10%;
   font-size: 2.7rem;
 }
+.intro-heading {
+}
+.intro-p {
+  text-indent: 20px;
+}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
+  body {
+    padding: 1.5rem 0;
+  }
+
+  main {
+    gap: 2.8rem;
+  }
+
+  section {
+    width: 90vw;
+    height: 40rem;
+    display: flex;
+    padding: 2.3rem;
+    justify-content: center;
+  }
+  .cover-img {
+    height: 87vh;
+    width: 80vw;
+    border-radius: 10px;
+  }
+  .heading {
+    position: absolute;
+    top: 68%;
+    left: 18%;
+    font-size: 5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    padding: 1.5rem 0;
+  }
+
+  main {
+    gap: 2.8rem;
+  }
+
+  section {
+    width: 93vw;
+    height: 40rem;
+    padding: 1.7rem;
+  }
+  .cover-img {
+    height: 90vh;
+    width: 89vw;
+    border-radius: 10px;
+  }
+  .heading {
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    font-size: 7.7rem;
+  }
 }
