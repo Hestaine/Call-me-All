@@ -36,6 +36,7 @@ section {
 }
 .coverpage {
   position: absolute;
+  top: 5%;
   width: 97vw;
   height: 100%;
   display: flex;
