@@ -36,7 +36,7 @@ section {
   display: flex;
 }
 .cover-img {
-  height: 77.5vh;
+  height: 77vh;
   width: 80vw;
   border-radius: 10px;
 }
