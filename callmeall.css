@@ -19,10 +19,12 @@ section {
   height: 60rem;
   display: flex;
   justify-content: center;
+  background-color: rgba(245, 245, 245, 0.7);
 }
 .coverpage {
   position: relative;
   width: 97vw;
+  height: 100%;
   display: flex;
   margin: 1rem auto;
 }
@@ -32,6 +34,7 @@ section {
 }
 .heading {
   position: absolute;
+  top: 100px;
 }
 
 @media screen and (min-width: 800px) {
