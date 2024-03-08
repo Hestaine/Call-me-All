@@ -38,12 +38,12 @@ section {
 .cover-img {
   height: 77.5vh;
   width: 80vw;
-  border: 10px;
+  border-radius: 10px;
 }
 .heading {
   position: absolute;
   top: 80%;
-  left: 14%;
+  left: 10%;
   font-size: 2.7rem;
 }
 
