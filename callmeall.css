@@ -7,12 +7,26 @@
 body {
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
+  width: 100vw;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   color: whitesmoke;
+  padding: 1rem 0;
 }
 
 .heading {
   background-image: url(./images/colorful\ full\ b\ 21888d2b-59d5-479b-afff-c740ae09db53.png);
+  height: 96vh;
+  width: 96vw;
+}
+
+section {
+  width: 90vw;
+  height: 60rem;
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1024px) {
 }
