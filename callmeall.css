@@ -23,7 +23,7 @@ main {
 }
 
 section {
-  width: 94vw;
+  width: 100vw;
   height: 40rem;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ section {
 }
 .cover-img {
   height: 79.7vh;
-  width: 79vw;
+  width: 93vw;
   border-radius: 10px;
 }
 .heading {
@@ -65,8 +65,8 @@ section {
 }
 p {
   text-indent: 20px;
-  font-size: 1.08rem;
-  line-height: 0.7rem;
+  font-size: 1.5rem;
+  line-height: 1.1rem;
 }
 
 @media screen and (min-width: 768px) {
