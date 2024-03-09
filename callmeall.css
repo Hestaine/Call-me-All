@@ -35,27 +35,18 @@ section {
   background-color: rgba(245, 245, 245, 0.5);
 }
 #cover-page {
-  position: relative;
   justify-content: center;
+  padding: 0;
 }
 .coverpage {
-  position: absolute;
-  top: 2.8%;
   width: 97vw;
   height: 100%;
   display: flex;
 }
 .cover-img {
-  height: 79.7vh;
-  width: 87vw;
+  height: 100vh;
+  width: 99vw;
   border-radius: 10px;
-}
-.heading {
-  position: absolute;
-  top: 80%;
-  left: 7%;
-  font-weight: 900;
-  font-size: 2.7rem;
 }
 #introduction {
   gap: 1rem;
