@@ -19,6 +19,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  margin: 1px auto;
   gap: 2.5rem;
 }
 
@@ -65,8 +66,8 @@ section {
 }
 p {
   text-indent: 20px;
-  font-size: 1.25rem;
-  line-height: 1.35rem;
+  font-size: 1.19rem;
+  line-height: 1.32rem;
 }
 
 @media screen and (min-width: 768px) {
