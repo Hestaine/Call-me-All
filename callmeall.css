@@ -45,7 +45,7 @@ section {
 }
 header {
   display: flex;
-  gap: 10rem;
+  gap: 3.5rem;
 }
 #introduction {
   gap: 1rem;
@@ -73,7 +73,6 @@ p {
 
   section {
     width: 90vw;
-    height: 40rem;
     display: flex;
     padding: 2.3rem;
   }
@@ -81,12 +80,6 @@ p {
     height: 54.5vh;
     width: 80vw;
     border-radius: 10px;
-  }
-  .heading {
-    position: absolute;
-    top: 68%;
-    left: 18%;
-    font-size: 5rem;
   }
   #introduction {
     gap: 2rem;
@@ -114,7 +107,6 @@ p {
 
   section {
     width: 90vw;
-    height: 40rem;
     display: flex;
     padding: 2.3rem;
   }
@@ -122,12 +114,6 @@ p {
     height: 48vh;
     width: 80vw;
     border-radius: 10px;
-  }
-  .heading {
-    position: absolute;
-    top: 68%;
-    left: 18%;
-    font-size: 5rem;
   }
   #introduction {
     gap: 2rem;
@@ -155,7 +141,6 @@ p {
 
   section {
     width: 93vw;
-    height: 40rem;
     padding: 1.7rem;
   }
   .cover-img {
@@ -195,7 +180,6 @@ p {
 
   section {
     width: 93vw;
-    height: 40rem;
     padding: 1.7rem;
   }
   .cover-img {
