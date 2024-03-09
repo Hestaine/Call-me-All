@@ -43,7 +43,7 @@ section {
   display: flex;
 }
 .cover-img {
-  height: 81.7vh;
+  height: 80.7vh;
   width: 79vw;
   border-radius: 10px;
 }
@@ -55,7 +55,7 @@ section {
   font-size: 2.7rem;
 }
 #introduction {
-  gap: 1.1rem;
+  gap: 1rem;
 }
 .intro-heading {
   text-align: center;
@@ -66,7 +66,6 @@ section {
 p {
   text-indent: 20px;
   font-size: 1.08rem;
-  line-height: 1.4rem;
 }
 
 @media screen and (min-width: 768px) {
