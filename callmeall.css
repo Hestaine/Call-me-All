@@ -69,6 +69,16 @@ p {
   text-shadow: none;
   font-weight: 700;
 }
+.purple {
+  color: purple;
+  text-shadow: 0px 10px 17px black;
+  font-weight: 500;
+}
+.orange {
+  color: Orange;
+  text-shadow: 0px 10px 17px black;
+  font-weight: 500;
+}
 .fire {
   color: red;
   text-shadow: 0px 10px 17px black;
