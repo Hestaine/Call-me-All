@@ -7,10 +7,24 @@
 body {
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* padding: 1rem 2rem; */
+  flex-direction: column;
   height: 100vh;
   color: whitesmoke;
+}
+
+header {
+  display: flex;
+  padding: 0.6rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 3px 2px black;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 a {
@@ -22,6 +36,9 @@ a {
   padding: 0.4rem;
   font-size: 1rem;
   border-radius: 10px;
+  color: transparent;
   border: none;
-  box-shadow: 1px 4px 3px black;
+  background-image: url(./images/call\ me\ all\ test\ logo.jpeg);
+  background-clip: text;
+  /* box-shadow: 1px 4px 3px black; */
 }
