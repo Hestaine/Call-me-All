@@ -32,9 +32,15 @@ main {
   padding: 1rem;
 }
 
+.menu-open,
+.menu-close {
+  cursor: pointer;
+}
+
 a {
-  color: inherit;
+  color: rgb(54, 54, 109);
   text-decoration: none;
+  text-shadow: 1px 2px 2px black;
 }
 
 #introduction {
