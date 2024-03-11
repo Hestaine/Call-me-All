@@ -11,13 +11,14 @@ body {
   flex-direction: column;
   height: 100vh;
   color: whitesmoke;
+  text-shadow: 1px 2px 2px rgb(90, 83, 83);
 }
 
 header {
   display: flex;
   padding: 0.6rem;
   background-color: rgba(0, 0, 0, 0.2);
-  box-shadow: 1px 3px 2px black;
+  box-shadow: 1px 7px 10px black;
   justify-content: space-between;
 }
 
@@ -41,4 +42,51 @@ a {
   background-image: url(./images/call\ me\ all\ test\ logo.jpeg);
   background-clip: text;
   /* box-shadow: 1px 4px 3px black; */
+}
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu {
+}
+
+@media screen and (min-width: 768px) {
+  .menu-open {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .menu-open {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-open {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-open {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
 }
