@@ -113,7 +113,8 @@ h3 {
   display: none;
 }
 
-.menu {
+header > h3 {
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 768px) {
