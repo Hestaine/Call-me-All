@@ -147,6 +147,10 @@ header > h3 {
   gap: 0.5rem;
 }
 
+#contact > .contact-info > p > a {
+  color: whitesmoke;
+}
+
 #support > .support-info {
   display: flex;
   gap: 1rem;
