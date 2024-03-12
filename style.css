@@ -16,9 +16,14 @@ body {
 header {
   display: flex;
   padding: 0.6rem;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 1px 7px 10px black;
   justify-content: space-between;
+}
+
+header > nav > a {
+  color: whitesmoke;
 }
 
 nav {
@@ -132,6 +137,10 @@ header > h3 {
   text-indent: 0;
 }
 
+.head-text {
+  font-size: 1rem;
+}
+
 #contact > .contact-info {
   display: flex;
   flex-direction: column;
@@ -208,6 +217,15 @@ footer > p {
   .menu {
     display: flex;
   }
+
+  .menu-close {
+    display: none;
+  }
+
+  .head-text {
+    font-size: 2rem;
+  }
+
   footer {
     gap: 1rem;
     display: flex;
