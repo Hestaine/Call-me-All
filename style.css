@@ -80,24 +80,6 @@ h3 {
   text-indent: 35px;
 }
 
-.intro {
-  background-image: url(./images/creativity.jpg),
-    linear-gradient(to bottom right, rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
-  background-blend-mode: overlay;
-}
-
-.idea {
-  background-image: url(./images/idea.jpeg),
-    linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-  background-blend-mode: overlay;
-}
-
-.donate {
-  background-image: url(./images/implement.webp),
-    linear-gradient(to bottom right, rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
-  background-blend-mode: overlay;
-}
-
 .callmeall {
   padding: 0.4rem;
   font-size: 1rem;
