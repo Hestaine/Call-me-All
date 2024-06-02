@@ -17,13 +17,18 @@ header {
   display: flex;
   padding: 0.6rem;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 1px 7px 10px black;
   justify-content: space-between;
 }
 
 header > nav > a {
   color: whitesmoke;
+}
+
+.logo {
+  height: 3rem;
+  border-radius: 50%;
 }
 
 nav {
@@ -219,7 +224,7 @@ footer > p {
   }
 
   .head-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   footer {

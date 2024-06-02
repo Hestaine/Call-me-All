@@ -22,6 +22,17 @@ header {
   justify-content: space-between;
 }
 
+a {
+  color: rgb(54, 54, 109);
+  text-decoration: none;
+  text-shadow: 1px 2px 2px black;
+}
+
+.logo {
+  height: 3rem;
+  border-radius: 50%;
+}
+
 header > nav > a {
   color: whitesmoke;
 }
@@ -30,12 +41,6 @@ nav {
   display: flex;
   gap: 1rem;
   align-items: center;
-}
-
-a {
-  color: rgb(54, 54, 109);
-  text-decoration: none;
-  text-shadow: 1px 2px 2px black;
 }
 
 .main {
@@ -77,13 +82,13 @@ header > h3 {
     display: none;
   }
 
-  header {
+  header > h3 {
     font-size: 2rem;
     text-indent: 0;
   }
 
   .head-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   footer {

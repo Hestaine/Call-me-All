@@ -9,7 +9,7 @@ const novelSection = document.getElementById("novels");
 const supportSection = document.getElementById("support");
 const contacSection = document.getElementById("contact");
 
-// Web functions
+// functions
 // Menu open
 const openMenu = function () {
   nav.classList.remove("hidden");
