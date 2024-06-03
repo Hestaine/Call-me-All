@@ -169,7 +169,7 @@ header {
 
 p {
   text-indent: 20px;
-  font-size: 1.35rem;
+  font-size: 1rem;
   line-height: 1.7rem;
   animation: textMove 3s both;
 }
