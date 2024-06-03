@@ -172,6 +172,7 @@ p {
   font-size: 1.35rem;
   line-height: 1.7rem;
   animation: textMove 3s both;
+  padding: 0 1rem;
 }
 
 /* power stles */
