@@ -111,7 +111,7 @@ header {
 
 .intro-heading {
   text-align: center;
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   text-decoration: underline;
   font-weight: 700;
 }
@@ -311,6 +311,10 @@ p {
 }
 
 @media screen and (min-width: 599px) {
+  .intro-heading {
+    font-size: 2.5rem;
+  }
+
   .body-header {
     border-radius: 10px;
   }
@@ -348,6 +352,10 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  .intro-heading {
+    font-size: 2.7rem;
+  }
+
   .body-header {
     border-radius: 15px;
   }
