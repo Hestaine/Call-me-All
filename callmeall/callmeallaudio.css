@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-family: 600;
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
 }
@@ -200,7 +200,7 @@ p {
 }
 
 .water {
-  color: rgb(0, 0, 255);
+  color: blue;
   text-shadow: 0px 10px 17px black;
   font-weight: 500;
 }
@@ -311,15 +311,15 @@ p {
 }
 
 @media screen and (min-width: 599px) {
-  .body-header {
-    border-radius: 10px;
-  }
-
   .menu-open {
     display: none;
   }
   .menu {
     display: flex;
+  }
+
+  .body-header {
+    border-radius: 10px;
   }
 
   .menu-close {
@@ -348,12 +348,12 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .body-header {
-    border-radius: 15px;
-  }
-
   body {
     padding: 1.5rem 0;
+  }
+
+  .body-header {
+    border-radius: 15px;
   }
 
   main {
@@ -407,12 +407,12 @@ p {
 }
 
 @media screen and (min-width: 820px) {
-  .body-header {
-    border-radius: 20px;
-  }
-
   body {
     padding: 1.5rem 0;
+  }
+
+  .body-header {
+    border-radius: 20px;
   }
 
   main {
@@ -505,7 +505,7 @@ p {
 @keyframes textMove {
   0% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(100px);
   }
 
   100% {

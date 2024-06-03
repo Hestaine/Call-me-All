@@ -46,10 +46,35 @@ nav {
   cursor: pointer;
 }
 
+.callmeall {
+  border: none;
+  padding: 0.4rem;
+  font-size: 1rem;
+  color: transparent;
+  border-radius: 10px;
+  box-shadow: 1px 4px 3px black;
+  background-image: url(./images/call\ me\ all\ test\ logo.jpeg);
+}
+
+.callmeall-audio {
+  border: none;
+  padding: 0.4rem;
+  font-size: 1rem;
+  color: transparent;
+  border-radius: 10px;
+  box-shadow: 1px 4px 3px black;
+  background-image: url(./images/call\ me\ all\ test\ logo.jpeg);
+}
+
 a {
   color: rgb(54, 54, 109);
   text-decoration: none;
   text-shadow: 1px 2px 2px black;
+}
+
+.callmeall a,
+.callmeall-audio a {
+  color: rgb(71, 47, 117);
 }
 
 #introduction {
@@ -75,6 +100,12 @@ a {
   padding: 2rem;
 }
 
+.novellist {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
 #novels > h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -83,17 +114,6 @@ a {
 
 h3 {
   text-indent: 35px;
-}
-
-.callmeall {
-  padding: 0.4rem;
-  font-size: 1rem;
-  border-radius: 10px;
-  color: transparent;
-  border: none;
-  background-image: url(./images/call\ me\ all\ test\ logo.jpeg);
-  color: whitesmoke;
-  box-shadow: 1px 4px 3px black;
 }
 
 .visible {
