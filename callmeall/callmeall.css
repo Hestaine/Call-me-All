@@ -121,7 +121,6 @@ header {
 #navigator {
   width: 80%;
   z-index: 7;
-  bottom: 7rem;
   position: fixed;
   align-self: center;
   padding: 0.8rem 1rem;
