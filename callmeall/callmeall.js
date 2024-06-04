@@ -62,7 +62,7 @@ pageSubmit.addEventListener("click", function (e) {
     errorMsg.textContent = `${inputedNum} is not a number, were you just testing it?`;
   }
 
-  pageInput.value = "";
+  // pageInput.value = "";
 });
 
 navigateOpenBtn.addEventListener("click", navigateToggle);
