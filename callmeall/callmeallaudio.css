@@ -123,13 +123,12 @@ header {
   align-self: center;
   align-items: center;
 }
-
 .label-page-num {
   font-size: 1rem;
 }
 
 #page-num-input {
-  width: 4rem;
+  width: 70%;
   height: 2rem;
   border: none;
   outline: none;
@@ -395,7 +394,6 @@ p {
   }
 
   #page-num-input {
-    width: 19rem;
     height: 3rem;
     font-size: 1.8rem;
   }

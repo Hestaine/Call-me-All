@@ -5,9 +5,13 @@ const pageSubmit = document.querySelector(".page-num-submit");
 const pageNums = document.querySelectorAll(".page-num");
 const errorMsg = document.querySelector(".navigate-error");
 
+const nav = document.querySelector(".menu");
 const menuBtn = document.querySelector(".menu-open");
 const menuClose = document.querySelector(".menu-close");
-const nav = document.querySelector(".menu");
+
+const overlay = document.querySelector(".overlay");
+const navigateOpenBtn = document.querySelector(".open-nav");
+const navigateSection = document.querySelector("#navigator");
 
 // Menu open
 const openMenu = function () {
@@ -21,15 +25,14 @@ const closeMenu = function () {
   menuBtn.classList.remove("hidden");
 };
 
+const navigateToggle = function () {
+  overlay.classList.toggle("hidden");
+  navigateSection.classList.toggle("hidden");
+};
+
 // Event listeners
 menuBtn.addEventListener("click", openMenu);
 menuClose.addEventListener("click", closeMenu);
-
-pageNums.forEach((pageNum) => {
-  pageNum.addEventListener("click", function (e) {
-    document.querySelector("#navigator").scrollIntoView({ behavior: "smooth" });
-  });
-});
 
 pageSubmit.addEventListener("click", function (e) {
   e.preventDefault();
@@ -39,10 +42,13 @@ pageSubmit.addEventListener("click", function (e) {
 
   // Setting conditions
   if (inputedNum && isFinite(inputedNum)) {
-    console.log(pageSubmit);
     const desiredPage = document.querySelector(`#chapter-${inputedNum}`);
     desiredPage.scrollIntoView({ behavior: "smooth" });
+
+    navigateToggle();
   } else {
     errorMsg.textContent = `${inputedNum} is not a number, were you just testing it?`;
   }
 });
+
+navigateOpenBtn.addEventListener("click", navigateToggle);
