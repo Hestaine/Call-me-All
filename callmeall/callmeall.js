@@ -12,6 +12,7 @@ const menuClose = document.querySelector(".menu-close");
 const overlay = document.querySelector(".overlay");
 const navigateOpenBtn = document.querySelector(".open-nav");
 const navigateSection = document.querySelector("#navigator");
+const navigateInfo = document.querySelector(".navigate-Info");
 
 // Menu open
 const openMenu = function () {
@@ -30,6 +31,15 @@ const navigateToggle = function () {
   navigateSection.classList.toggle("nav-hidden");
 };
 
+(function () {
+  const pageNumbers = [...pageNums].map((pageNum, i) => i);
+
+  const pageMax = Math.max(...pageNumbers);
+  const pageMin = Math.min(...pageNumbers);
+
+  navigateInfo.textContent = `Enter from page (${pageMin} - ${pageMax})`;
+})();
+
 // Event listeners
 menuBtn.addEventListener("click", openMenu);
 menuClose.addEventListener("click", closeMenu);
@@ -45,10 +55,14 @@ pageSubmit.addEventListener("click", function (e) {
     const desiredPage = document.querySelector(`#chapter-${inputedNum}`);
     desiredPage.scrollIntoView({ behavior: "smooth" });
 
+    errorMsg.textContent = "";
+
     navigateToggle();
   } else {
     errorMsg.textContent = `${inputedNum} is not a number, were you just testing it?`;
   }
+
+  pageInput.value = "";
 });
 
 navigateOpenBtn.addEventListener("click", navigateToggle);

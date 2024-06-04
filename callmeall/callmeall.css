@@ -107,7 +107,7 @@ header {
   justify-content: space-between;
 }
 
-#introduction {
+.introduction {
   gap: 1rem;
 }
 
@@ -124,10 +124,10 @@ header {
   bottom: 15.7rem;
   position: fixed;
   align-self: center;
-  padding: 0.8rem 0.5rem;
+  padding: 0.8rem 1rem;
   background-color: rgb(131, 129, 129);
 
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .overlay {
@@ -138,7 +138,7 @@ header {
   position: fixed;
   background-color: rgb(0, 0, 0, 0.7);
 
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .nav-hidden {
@@ -146,8 +146,8 @@ header {
 }
 
 .open-nav {
-  width: 15%;
   border: 0;
+  width: 12%;
   z-index: 7;
   float: left;
   bottom: 7rem;
