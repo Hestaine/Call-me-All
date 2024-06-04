@@ -142,7 +142,7 @@ header {
 }
 
 .nav-hidden {
-  opacity: 0;
+  display: none;
 }
 
 .open-nav {
