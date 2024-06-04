@@ -141,7 +141,7 @@ header {
   transition: all 3s ease-in-out;
 }
 
-.hidden {
+.nav-hidden {
   opacity: 0;
 }
 

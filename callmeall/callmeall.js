@@ -26,8 +26,8 @@ const closeMenu = function () {
 };
 
 const navigateToggle = function () {
-  overlay.classList.toggle("hidden");
-  navigateSection.classList.toggle("hidden");
+  overlay.classList.toggle("nav-hidden");
+  navigateSection.classList.toggle("nav-hidden");
 };
 
 // Event listeners
