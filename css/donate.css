@@ -5,11 +5,12 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
-  /* padding: 1rem 2rem; */
+  overflow-x: hidden;
   flex-direction: column;
+  /* padding: 1rem 2rem; */
   color: rgb(253, 253, 253);
+  background-color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 2px 2px rgb(0, 0, 0);
 }
 
@@ -51,21 +52,20 @@ nav {
 .menu-close {
   cursor: pointer;
 
-  animation: openBtn 3s;
+  animation: openBtn 2s;
 }
 
 .close-navBtn {
-  animation: closeBtn 3s;
+  animation: closeBtn 2s;
 }
 
 .slidein {
-  animation: slideIn 3s;
+  animation: slideIn 2s;
 }
 
 .slideout {
-  animation: slideOut 3s;
+  animation: slideOut 2s;
 }
-
 
 .visible {
   display: flex;
@@ -182,59 +182,59 @@ header > h3 {
     gap: 2rem;
   }
 }
-  
+
 @keyframes textMove {
-    0% {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-  
-    100% {
-      opacity: 100;
-      transform: translateY(0px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
   }
-  
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-  
-    100% {
-      opacity: 100;
-      transform: translateX(0px);
-    }
+
+  100% {
+    opacity: 100;
+    transform: translateY(0px);
   }
-  
-  @keyframes slideOut {
-    0% {
-      opacity: 100;
-      transform: translateX(0px);
-    }
-  
-    100% {
-      opacity: 0;
-      transform: translateX(50px);
-    }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
   }
-  
-  @keyframes openBtn {
-    0% {
-      rotate: 95deg;
-    }
-  
-    100% {
-      rotate: 0deg;
-    }
+
+  100% {
+    opacity: 100;
+    transform: translateX(0px);
   }
-  
-  @keyframes closeBtn {
-    0% {
-      rotate: 0deg;
-    }
-  
-    100% {
-      rotate: 95deg;
-    }
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 100;
+    transform: translateX(0px);
   }
+
+  100% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+}
+
+@keyframes openBtn {
+  0% {
+    rotate: 95deg;
+  }
+
+  100% {
+    rotate: 0deg;
+  }
+}
+
+@keyframes closeBtn {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 95deg;
+  }
+}

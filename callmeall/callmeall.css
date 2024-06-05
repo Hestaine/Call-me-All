@@ -54,19 +54,19 @@ nav {
 .menu-close {
   cursor: pointer;
 
-  animation: openBtn 3s;
+  animation: openBtn 2s;
 }
 
 .close-navBtn {
-  animation: closeBtn 3s;
+  animation: closeBtn 2s;
 }
 
 .slidein {
-  animation: slideIn 3s;
+  animation: slideIn 2s;
 }
 
 .slideout {
-  animation: slideOut 3s;
+  animation: slideOut 2s;
 }
 
 a {
