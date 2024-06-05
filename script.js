@@ -13,6 +13,11 @@ const contacSection = document.getElementById("contact");
 // Menu open
 const openMenu = function () {
   nav.classList.remove("hidden");
+  nav.classList.add("slidein");
+  nav.classList.remove("slideout");
+
+  menuClose.classList.remove("close-navBtn");
+
   menuBtn.classList.add("hidden");
 };
 
@@ -20,6 +25,11 @@ const openMenu = function () {
 const closeMenu = function () {
   nav.classList.add("hidden");
   menuBtn.classList.remove("hidden");
+
+  nav.classList.add("slideout");
+  nav.classList.remove("slidein");
+
+  menuClose.classList.add("close-navBtn");
 };
 
 // Event listeners

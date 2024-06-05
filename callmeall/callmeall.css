@@ -45,24 +45,34 @@ body {
 }
 
 nav {
-  display: flex;
   gap: 1rem;
+  display: flex;
   align-items: center;
 }
 
 .menu-open,
 .menu-close {
   cursor: pointer;
+
+  animation: openBtn 3s;
+}
+
+.close-navBtn {
+  animation: closeBtn 3s;
+}
+
+.slidein {
+  animation: slideIn 3s;
+}
+
+.slideout {
+  animation: slideOut 3s;
 }
 
 a {
   color: rgb(54, 54, 109);
   text-decoration: none;
   text-shadow: 1px 2px 2px black;
-}
-
-.visible {
-  display: flex;
 }
 
 .hidden {
@@ -126,7 +136,7 @@ header {
   padding: 0.8rem 1rem;
   background-color: rgb(131, 129, 129);
 
-  transition: all 1s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .overlay {
@@ -137,7 +147,7 @@ header {
   position: fixed;
   background-color: rgb(0, 0, 0, 0.7);
 
-  transition: all 1s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .nav-hidden {
@@ -570,5 +580,49 @@ p {
   100% {
     opacity: 100;
     transform: translateY(0px);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 100;
+    transform: translateX(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+}
+
+@keyframes openBtn {
+  0% {
+    rotate: 95deg;
+  }
+
+  100% {
+    rotate: 0deg;
+  }
+}
+
+@keyframes closeBtn {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 95deg;
   }
 }
