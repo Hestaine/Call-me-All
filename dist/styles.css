@@ -554,8 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.fixed {
-  position: fixed;
+.collapse {
+  visibility: collapse;
 }
 
 .sticky {
@@ -564,10 +564,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.bottom-\[7rem\] {
-  bottom: 7rem;
 }
 
 .m-auto {
@@ -595,8 +591,28 @@ video {
   margin-top: 1rem;
 }
 
+.mt-\[4rem\] {
+  margin-top: 4rem;
+}
+
+.mt-\[2rem\] {
+  margin-top: 2rem;
+}
+
+.mt-\[3rem\] {
+  margin-top: 3rem;
+}
+
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -611,28 +627,24 @@ video {
   width: 100%;
 }
 
-.w-\[5\%\] {
-  width: 5%;
+.w-\[90\%\] {
+  width: 90%;
 }
 
-.w-\[8\%\] {
-  width: 8%;
-}
-
-.w-\[4\%\] {
-  width: 4%;
-}
-
-.w-\[100vh\] {
-  width: 100vh;
-}
-
-.w-\[100vw\] {
-  width: 100vw;
+.w-\[98\%\] {
+  width: 98%;
 }
 
 .max-w-\[1300px\] {
   max-width: 1300px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.border-collapse {
+  border-collapse: collapse;
 }
 
 .cursor-pointer {
@@ -663,6 +675,18 @@ video {
   gap: 1rem;
 }
 
+.gap-\[2rem\] {
+  gap: 2rem;
+}
+
+.gap-\[3rem\] {
+  gap: 3rem;
+}
+
+.gap-\[4rem\] {
+  gap: 4rem;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -673,6 +697,26 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-blue {
+  border-color: rgba(14, 8, 43, 0.7);
 }
 
 .bg-callmeSection {
@@ -687,15 +731,6 @@ video {
 .bg-whiteSmoke {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
-}
-
-.bg-blue {
-  background-color: rgba(14, 8, 43, 0.7);
-}
-
-.bg-aboutSection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 5 37 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -718,8 +753,8 @@ video {
   padding: 1rem;
 }
 
-.p-\[0\.1rem\] {
-  padding: 0.1rem;
+.pb-\[4rem\] {
+  padding-bottom: 4rem;
 }
 
 .text-center {
@@ -789,11 +824,6 @@ video {
 .text-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
-}
-
-.text-whiteSmoke {
-  --tw-text-opacity: 1;
-  color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 
 .underline {

@@ -48,6 +48,9 @@ module.exports = {
       borderRadius: {
         callmeNavigate: "0 10px 10px 0",
       },
+      backgroundImage: {
+        callMeBgImg: "url('/dist/images/call me all test logo.jpeg')",
+      },
     },
   },
   plugins: [],

@@ -19,14 +19,55 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .novel-img{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 10px;
+      }
+      .tab{
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+      }
+      .novel-info h3{
+        font-size: 1.2rem;
+      }
+      .tab-info h2{
+        margin-bottom: .5rem;
+        font-size: 1.8rem;
+        margin-left: 20%;
+        text-decoration: underline;
+      }
+
+      @media screen and (min-width: 768px){
+        .novel-img{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 10px;
+      }
+      
+      .novel-info h3{
+        font-size: 1.3rem;
+      }
+      
+      .tab-info h2{
+        margin-bottom: .5rem;
+        font-size: 1.8rem;
+        margin-left: 20%;
+        text-decoration: underline;
+      }
+      }
+    </style>
   </head>
   <body
-    class="flex my-0 m-auto max-w-[1300px] overflow-x-hidden flex-col text-textWhite bg-gradient-to-b drop-shadow-generalWhite font-spaceGroetesk"
+    class="gap-[2rem] flex my-0 m-auto max-w-[1300px] overflow-x-hidden flex-col text-textWhite bg-gradient-to-b drop-shadow-generalWhite font-spaceGroetesk items-center"
   >
     <header
       class="z-3 top-0 flex p-[0.6rem] items-center w-[100%] shadow-header justify-between bg-headerWhite sticky"
     >
-      <a href="index.html" class="text-link font-[700] no-underline text-[1rem] vmd:text-[1.5rem]"
+      <a href="/dist/index.html" class="text-link font-[700] no-underline text-[1rem] vmd:text-[1.5rem]"
         ><img
           src="/dist/images/animelogo.jpg"
           alt="logo"
@@ -37,13 +78,32 @@
         class="menu gap-[1rem] items-center transition-all delay-[3s] ease-in-out hidden vmd:flex"
       >
         <h2 class="menu-close cursor-pointer vmd:hidden">×</h2>
-        <a href="#contact" class="contact-btn">Contact</a>
+        <a href="/dist/index.html#contact" class="contact-btn">Contact</a>
         <a href="/dist/html/donate.html" class="novel-btn">Donate</a>
-        <a href="./html/writers.html" class="">Writers</a>
+        <a href="/dist/html/writers.html" class="">Writers</a>
       </nav>
     </header>
-    
-    <footer class="flex gap-[1rem] flex-col bg-headerWhite  shadow-footer vmd:text-center">
+    <main class=" w-[90%] flex flex-col">
+      <h1 class="text-center text-[2rem]">Novels</h1>
+      <div class="line w-[98%] border-[1px] border-solid border-blue"> </div>
+      <div class="tabs mt-[4rem]">
+        <div class="tab ">
+        <img src="/dist/images/call me all test logo.jpeg" alt="Call me all test logo" class="novel-img">
+        <div class="tab-info">
+          <h2>Info</h2>
+          <div class="novel-info">
+            <h3>Author: Hestaine</h3>
+            <h3>Genre: Isekai</h3>
+            <h3>Name: Call me all</h3>
+            <h3>Published: ---</h3>
+            <h3>Volumes: 1</h3>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </main>
+    <footer class="flex gap-[1rem] flex-col bg-headerWhite  shadow-footer vmd:text-center w-[100%]">
       <main class="flex p-[1rem] gap-[1.5rem] flex-col">
         <section id="contact">
           <h2 class="text-center mb-[0.7rem] vmd:mb-[1.5rem]">Contact</h2>
@@ -67,7 +127,7 @@
         </section>
         <section id="support">
           <h2 class="">Support</h2>
-          <div class="flex gap-[1rem] vmd:gap-[2rem]">
+          <div class="flex gap-[1rem] vmd:gap-[2rem] ">
             <a href="mailto:ariffhestaine@gmail.com" class="text-link font-[700] no-underline"
               ><i class="fa-solid fa-lightbulb text-yellow-300"></i> Idea</a
             >
@@ -77,7 +137,7 @@
             <a href="mailto:ariffhestaine@gmail.com" class="text-link font-[700] no-underline"
               ><i class="fa-solid fa-circle-question text-feedback"></i> Feedback</a
             >
-            <a href="./html/donate.html" class="text-link font-[700] no-underline"
+            <a href="/dist/html/donate.html" class="text-link font-[700] no-underline"
               ><i class="fa-solid fa-circle-dollar-to-slot text-green-700"></i>
               Donate</a
             >
