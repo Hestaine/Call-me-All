@@ -19,6 +19,68 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      h2, h3, p{
+        animation: textMove 2s;
+      }
+
+      @keyframes textMove {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 100;
+    transform: translateX(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+}
+
+@keyframes openBtn {
+  0% {
+    rotate: 95deg;
+  }
+
+  100% {
+    rotate: 0deg;
+  }
+}
+
+@keyframes closeBtn {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 95deg;
+  }
+}
+
+    </style>
   </head>
   <body
     class="flex my-0 m-auto max-w-[1300px] overflow-x-hidden flex-col text-textWhite bg-gradient-to-b drop-shadow-generalWhite font-spaceGroetesk items-center"
